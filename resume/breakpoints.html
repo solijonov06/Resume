@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="widthdevice-width, initial-scale=1">
+        <title>Breakpoints</title>
+        <style>
+            .box{width: 601px;
+                height: 844px;
+                background-color: blue;
+            }
+            
+          
+            /*For phones, small devices*/
+            @media only screen and (max-width: 576px){
+                .box{
+                    font-size: 0.5rem;
+                }
+            }
+            /*For ipads, medium devices*/
+            @media only screen and (max-width: 768px){
+                .box{
+                    font-size: 1rem;
+                }
+            }
+            /*For desktops, big devices*/
+            @media only screen and (max-width: 992px){
+                .box{
+                    font-size: 1.5rem;
+                }
+            }
+            /*For monitors, large devices*/
+            @media only screen and (max-width: 1200px){
+                .box{
+                    font-size: 2rem;
+                }
+            }
+       
+            </style>
+    </head>
+    <body>
+        <div class="box">An example for viewport</div>
+    </body>
+</html>

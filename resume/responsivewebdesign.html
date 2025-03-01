@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="widthdevice-width, initial-scale=1"
+        <title>Responsive Webdesign</title>
+        <style>
+            .box{width: 601px;
+                height: 844px;
+                background-color: blue;
+            }
+            
+          
+            
+            @media only screen and (max-width: 600px){
+                .box{
+                    background-color: orange;
+                }
+            }
+       
+            @media only screen and (max-width: 500px){
+                .box{
+                    background-color: GREY;
+                }
+            }
+
+            @media only screen and (min-width: 700px){
+                .box{
+                    background-color: red;
+                }
+            }
+             
+            
+            @media only screen and (min-width: 900px){
+                .box{
+                    background-color: yellow;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">An example for viewport</div>
+    </body>
+</html>
